@@ -29,7 +29,7 @@ class Wall(pyRetroGame.objects.gameObject):
 
 
 game = pyRetroGame.game.Game(background=Background, size=Vector2(30, 30))
-player = Plyaer(Vector2(20, 3), game)
+player = Player(Vector2(20, 3), game)
 start = time.time()
 
 
