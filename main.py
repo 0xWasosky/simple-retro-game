@@ -11,7 +11,7 @@ class Background:
         return TextAssets.FilledBlock
 
 
-class Plyaer(pyRetroGame.objects.gameEntity):
+class Player(pyRetroGame.objects.gameEntity):
     def __init__(self, *args):
         super().__init__(*args)
 
