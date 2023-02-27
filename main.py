@@ -57,7 +57,7 @@ def colesion(side):
     
 
 def main():
-    for x in range(12):
+    for x in range(12 + 1):
         game.spawn(Wall(position=Vector2(11 + x, 4)))
 
     for _ in range(110):
